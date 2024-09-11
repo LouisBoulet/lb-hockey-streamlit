@@ -155,7 +155,7 @@ font_family = 'Lexend'
 
 # Initialize session state to capture selected player
 if 'selected_player' not in st.session_state:
-    st.session_state['selected_player'] = None
+    st.session_state['selected_player'] = players[0]
 
 dropdown_html_js = f"""
 <style>
